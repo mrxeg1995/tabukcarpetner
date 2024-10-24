@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tabuk.netlify.app/sitemap.xml
