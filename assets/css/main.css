@@ -2763,3 +2763,55 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+/* تنسيق الأزرار */
+.contact-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* تغيير إلى الجهة اليسرى */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* تنسيق زر واتساب */
+.whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.whatsapp-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp-btn span {
+  font-size: 16px;
+}
+
+/* تنسيق زر الاتصال */
+.call-btn {
+  background-color: #34b7f1;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.call-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.call-btn span {
+  font-size: 16px;
+}
